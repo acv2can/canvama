@@ -1,0 +1,96 @@
+*{  /*aplica a todo el HTML*/
+    margin:0; 
+    padding:0; 
+}
+
+/** Defincion  SECCIONES Y ETIQUETAS **/
+/*-----------------------------------*/
+
+body{
+    background-image: url("IMAGENES/Galeria_con_hamaca_transp_75.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    font-family:Tahoma;
+}
+
+h1{
+    text-align: center;
+}
+
+
+header{
+    background-color: burlywood; 
+    color: antiquewhite;
+    border-radius: 5px; /**redondeo los bordes del sombreado**/
+    text-align: center;
+}
+
+main{
+    color: lightcoral;
+    overflow: hidden;
+}
+
+h2{
+    color: white;
+    background-color: transparent;
+    border-radius: 5px; 
+    font-family:Tahoma;
+    text-align: center;
+}
+
+h3{
+    color: rgb(168, 70, 70);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+footer{
+    background-color: burlywood; 
+    color:  antiquewhite;
+    border-radius: 5px; /**redondeo los bordes del sombreado**/
+    font-family:Tahoma;
+    text-align: center;
+    position: sticky ; 
+    left: 10px;
+    bottom: 10px; 
+    margin-top:0;
+}
+
+
+/** Defincion  CLASES **/
+/*--------------------*/
+
+.nav {
+    background-color: lightcoral; 
+    color: antiquewhite;
+    text-decoration: none; /**con esto elimino el subrayado de los link q coloca x default**/
+    padding: 0.3%; /**le amplio la zona sombreada sobre el boton del link**/
+    border-radius: 5px; /**redondeo los bordes del sombreado**/
+    font-size:1.5vw; 
+    margin:0.3%; 
+}
+ 
+.redsoc{
+    color: lightcoral;
+    font-size:1.5vw; 
+    text-align:center;
+    text-decoration: none;
+}
+
+.redsoc a{
+    color: lightcoral; /* es el color del icono*/
+    text-decoration: none;
+    margin: 0px 6px; /*es el espacio entre los iconos*/
+    font-size:2vw; /*es como el 20% del tamano del icono*/
+}
+
+.redsoc p{
+    color: lightcoral; /* es el color del icono*/
+    margin: 0px 6px; /*es el espacio entre los iconos*/
+    font-size:2vw; /*es como el 20% del tamano del icono*/
+}
+
+.redsoc a:hover 
+{color: whitesmoke; }
