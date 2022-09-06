@@ -94,3 +94,10 @@ footer{
 
 .redsoc a:hover 
 {color: whitesmoke; }
+
+.left-box {
+    background-color: white;
+}
+.right-box {
+    background-color: pink;
+}
