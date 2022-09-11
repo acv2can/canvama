@@ -7,7 +7,7 @@
 /*-----------------------------------*/
 
 body{
-    background-image: url("IMAGENES/Galeria_con_hamaca_transp_75.jpg"); 
+    background-image: url("/assets/Galeria_con_hamaca_transp_75.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,13 +23,14 @@ h1{
 header{
     background-color: burlywood; 
     color: antiquewhite;
-    border-radius: 5px; /**redondeo los bordes del sombreado**/
+    border-radius: 3%; /**redondeo los bordes del sombreado**/
     text-align: center;
 }
 
 main{
     color: lightcoral;
     overflow: hidden;
+
 }
 
 h2{
@@ -58,6 +59,21 @@ footer{
     margin-top:0;
 }
 
+ul {
+    font-style: oblique;
+    color: rgb(165, 96, 43);
+}
+
+li {
+    font-style: normal;
+    color:  lightcoral;
+}
+
+p {
+    font-style: oblique;
+    color: rgb(165, 96, 43);
+}
+
 
 /** Defincion  CLASES **/
 /*--------------------*/
@@ -66,8 +82,8 @@ footer{
     background-color: lightcoral; 
     color: antiquewhite;
     text-decoration: none; /**con esto elimino el subrayado de los link q coloca x default**/
-    padding: 0.3%; /**le amplio la zona sombreada sobre el boton del link**/
-    border-radius: 5px; /**redondeo los bordes del sombreado**/
+    padding: 3%; /**le amplio la zona sombreada sobre el boton del link**/
+    border-radius: 3%; /**redondeo los bordes del sombreado**/
     font-size:1.5vw; 
     margin:0.3%; 
 }
@@ -95,14 +111,30 @@ footer{
 .redsoc a:hover 
 {color: whitesmoke; }
 
-.left-box {
+.box-top {
     background-color: white;
-    /*
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    */
+    border: 4px solid palevioletred;
+    border-radius: 10%;
+    padding: 2%;
+    height: 50%;
+    width: 50%;
+    margin: 3% auto;
+    font-family: Calibri;
+    font-size:large;
 }
-.right-box {
+
+.box-titulo {
+    font-style: oblique;
+    text-decoration-line: underline; 
+}
+
+# box-linea {
+    font-style: normal;
+    text-decoration-line: none;
+
+}
+
+.box-bottom {
     background-color: pink;
 }
+
