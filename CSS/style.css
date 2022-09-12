@@ -186,16 +186,14 @@ footer{
 .redsoc a:hover 
 {color: whitesmoke; }
 
-.container-fotos {
-    
-}
 
 .fotos {
     display:grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 5vw);
+    grid-gap: 10px;
 }
+
 .foto-1, 
 .foto-2,
 .foto-3 {
@@ -208,21 +206,21 @@ footer{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 5;
 }
 
 .f2 {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 5;
 }
 
 .f3 {
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 5;
 }
 .contenedor {
     display: flex;
