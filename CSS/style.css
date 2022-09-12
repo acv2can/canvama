@@ -84,14 +84,19 @@ footer{
 
 .box-top {
     background-color: white;
-    border: 4px outset palevioletred;
-    border-radius: 10%;
+    border: 4px outset rgb(223, 35, 98);
+    border-radius: 20%;
     padding: 2%;
     height: 50%;
     width: 55%;
     margin: 2% auto;
     font-family: Calibri;
     font-size:large;
+    animation: zoomIn;
+    animation-iteration-count: four;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    animation-delay: 5s;
 }
 
 .box-top ul{
@@ -101,31 +106,44 @@ footer{
 
 .box-top li {
     font-style: normal;
-    color:  lightcoral;
+    color:  rgb(224, 76, 125);
 }
 
 .box-top p{
     font-style: oblique;
     color: rgb(165, 96, 43);
-} */
+    text-align: center;
+}
 
 
 
-.box-titulo {
-    font-style: oblique;
-    text-decoration-line: underline; 
+.box-top-pie {
+    text-decoration-line: underline;
+}
+
+.box-bottom {
+    background-color:  antiquewhite;
+    border: 4px outset rgb(223, 35, 98);
+    color:  rgb(135, 21, 61);
+    /* border-radius: 5%; */
+    padding: 2%;
+    height: 50%;
+    width: 75%;
+    margin: 2% auto;
+    font-family: Calibri;
 }
 
 .box-bottom-address{
     background-color: white;
     border: 4px outset palevioletred;
-    border-radius: 10%;
-    padding: 2%;
-    height: 50%;
+    border-radius: 20%;
+    padding: 1%;
+    height: 25%;
     width: 55%;
-    margin: 2% auto;
+    margin: 1% auto;
     font-family: Calibri;
-    font-size:large;
+    text-align: center;
+    /* font-size:large; */
 }
 
 .redsoc{
