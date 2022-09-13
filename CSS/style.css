@@ -186,6 +186,42 @@ footer{
 .redsoc a:hover 
 {color: whitesmoke; }
 
+.fotos {
+    display:grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 5vw);
+    grid-gap: 10px;
+}
+
+.foto-1, 
+.foto-2,
+.foto-3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.f1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.f2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.f3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
 .contenedor {
     display: flex;
     background-color: rgb(229, 207, 198);
@@ -201,7 +237,8 @@ footer{
 .contenedor-definiciones {
 	width: 90%;
     display: flex;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .caja {
@@ -214,9 +251,23 @@ footer{
 	padding: 20px;
     align-items: space-around;
     margin: 10px;
-	/* position: relative; */
-	/* overflow: hidden; */
+    flex:2 2 1;
+
 }
+
+.caja:nth-child(3){
+    background-color:rgb(244, 216, 216);
+}
+
+.caja:nth-child(4){
+    background-color:rgb(244, 216, 216);
+}
+
+.caja:nth-child(5){
+    width: 90%;
+    color: whitesmoke;
+    background-color: rgb(203, 179, 179);
+    }
 
 .titulo {
 	font-size: 20px;
@@ -224,6 +275,10 @@ footer{
     text-align: center;
     color: rgb(180, 52, 52);
 
+}
+
+.texto {
+    text-align: center;
 }
 
 .banner {
