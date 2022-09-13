@@ -186,6 +186,10 @@ footer{
 .redsoc a:hover 
 {color: whitesmoke; }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4dc0422e42d5bdc893b0b7c89fbd768859ccafaf
 .fotos {
     display:grid;
     grid-template-columns: repeat(9, 1fr);
@@ -221,7 +225,10 @@ footer{
     grid-row-start: 1;
     grid-row-end: 5;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4dc0422e42d5bdc893b0b7c89fbd768859ccafaf
 .contenedor {
     display: flex;
     background-color: rgb(229, 207, 198);
