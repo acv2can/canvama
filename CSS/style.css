@@ -19,7 +19,7 @@ body{
 
 .project {
     background-image: none;
-    background-color: rgb(209, 100, 100);
+    background-color: rgb(203, 179, 179);
 }
 
 h1{
@@ -192,11 +192,18 @@ footer{
 {color: whitesmoke; }
 
 
+.container-fotos {
+    padding: auto;
+    align-content: center;
+}
+
 .fotos {
     display:grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(10, 5vw);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 5vw);
     grid-gap: 10px;
+    align-content: center;
+    padding: auto;
 }
 
 .foto-1, 
