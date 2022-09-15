@@ -7,7 +7,7 @@
 /*-----------------------------------*/
 
 body{
-    background-image: url("/assets/Galeria_con_hamaca_transp_75.jpg"); 
+    background-image: url("/assets/Galeria_con_hamaca_transp_75.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,6 +15,11 @@ body{
     font-family:Tahoma;
     margin:1%; 
     padding:1%;
+}
+
+.project {
+    background-image: none;
+    background-color: rgb(209, 100, 100);
 }
 
 h1{
@@ -186,20 +191,26 @@ footer{
 .redsoc a:hover 
 {color: whitesmoke; }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 4dc0422e42d5bdc893b0b7c89fbd768859ccafaf
 .fotos {
     display:grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(9, 5vw);
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 5vw);
     grid-gap: 10px;
 }
 
 .foto-1, 
 .foto-2,
-.foto-3 {
+.foto-3,
+.foto-4,
+.foto-5,
+.foto-6,
+.foto-7,
+.foto-8,
+.foto-9,
+.foto-10, 
+.foto-11,
+.foto-12 {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -209,22 +220,86 @@ footer{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 4;
 }
 
 .f2 {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 4;
 }
 
 .f3 {
     grid-column-start: 5;
     grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 4;
 }
+
+.f4 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.f5 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.f6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.f7 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.f8 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.f9 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.f10 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.f11 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 11;
+}
+
+.f12 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 11;
+}
+
 
 .contenedor {
     display: flex;
