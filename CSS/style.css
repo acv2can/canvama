@@ -410,36 +410,43 @@ footer{
 }
 
 .banner {
-	border:rgb(211, 22, 22) solid;
-    background-color:whitesmoke;
+	/* border:rgb(211, 22, 22) solid; */
+    background-color: rgb(231, 191, 191);
 	border-radius: 50px;
     height: auto;
-	text-align: center;
-	padding: 20px;
+    text-align: center;
+	padding: 2%;
 	background-size: cover;
 	background-position: center center;
 	width: 10%;
 
 }
 
+.banner h4 {
+    color: whitesmoke;
+    font-family: sans-serif ;
+
+}
 .banner ul {
 	list-style: none;
 }
 
 .banner ul li {
-	margin: 15px;
+	margin: 4%;
+    /* margin: 15px; */
 	font-weight: bold;
 }
 
 .banner .boton {
-	background: #FFD600;
+	background: pink;
+    border:white solid; 
 	display: block;
 	width: 100%;
 	font-weight: bold;
 	font-size: 14px;
 	text-align: center;
 	padding: 10px;
-	border: none;
+	/* border: none; */
 	border-radius: 100px;
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
