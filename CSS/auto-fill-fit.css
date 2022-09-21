@@ -1,0 +1,47 @@
+*{  /*aplica a todo el HTML*/
+    margin:0; 
+    padding:0; 
+}
+
+/** Defincion  CLASES ABOUT.html**/
+/*------------------------------*/
+
+
+.video-container {
+    border-color: chocolate;
+    width: 100%;
+    height: 100%;  /*abarcara el 100% del espacio de la grilla*/
+    object-fit: cover;  /*para que no distorcione la imagen ponemos 100%*/
+    align-items: center ;
+}
+
+.video-video {
+    text-align: center;
+}
+
+.video-item {
+    border-radius: 5%;
+    background-color:  rgb(218, 210, 201);
+    padding: 1%;
+}
+
+.video-titulo h4{
+    bottom: 0;
+    color: rgb(193, 144, 81);
+    background: linear-gradient(white, wheat);
+}
+
+
+.socio-container {
+    display: grid;
+    grid-gap: 20px; /*espaciado entre cada una de las columnas*/
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    background: linear-gradient(white, wheat);
+    margin: auto;
+    /* padding: 1%; */
+
+}
+
+.socio-item {}
+
+.socio-titulo {}
