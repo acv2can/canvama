@@ -422,9 +422,10 @@ footer{
 	width: 10%;
 }
 
-.banner h4 {
+.banner p {
     color: whitesmoke;
     font-family: sans-serif;
+    font-weight: bold;
     font-size:relative; 
     flex-wrap: wrap;
            
