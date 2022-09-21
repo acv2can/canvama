@@ -34,14 +34,35 @@
 
 .socio-container {
     display: grid;
-    grid-gap: 20px; /*espaciado entre cada una de las columnas*/
-    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-gap: 10px; /*espaciado entre cada una de las columnas*/
+    margin: 20px auto;
+    width: 95%;
+    max-width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
     background: linear-gradient(white, wheat);
-    margin: auto;
-    /* padding: 1%; */
-
+    padding:20px;
+     
 }
 
-.socio-item {}
+.socio-texto { 
+    border-radius: 5%;
+    background-color:  rgb(218, 210, 201);
+    text-align: center;
+    position: relative;
+}
 
-.socio-titulo {}
+.socio-foto { 
+    width: 90%;
+    height: 90%;  /*abarcara el 100% del espacio de la grilla*/
+    object-fit: cover;  /*para que no distorcione la imagen ponemos 100%*/
+    /* animation: bounce; */
+    /* animation: flip;  */
+    /* animation: lightSpeedInRight; */
+    animation: slideInDown;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-delay: 9s;
+}
+
