@@ -13,11 +13,12 @@ body{
     background-position: center;
     background-color: transparent;
     font-family:Tahoma;
+    
     /* margin:1%;  */
-    margin: 20px auto;
+    /* margin: 20px auto;
     width: 95%;
     max-width: 1000px;
-    padding:1%;
+    padding:1%; */
 }
 
 .project {
