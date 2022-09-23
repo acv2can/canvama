@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-body {
-    background-color:blueviolet;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 1rem;
-}
 .foto-item > img{
     display: flex;
     align-items: center;
@@ -42,10 +37,12 @@ img {
 }
 
 .foto-titulo {
-    background-color: antiquewhite;
+    color: rgb(193, 144, 81);
+    background: linear-gradient(white, wheat);
 }
 
 @media (min-width: 600px) {
 }
 @media (min-width: 900px) {  
 }
+
