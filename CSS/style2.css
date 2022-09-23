@@ -6,7 +6,7 @@
 body {
     background-color:blueviolet;
     font-family:'Courier New', Courier, monospace;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .foto-item {
     display: flex;
@@ -15,7 +15,9 @@ body {
     background-color: bisque;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
-    border: solid 1px rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .foto-item:hover {
@@ -29,4 +31,21 @@ body {
     grid-auto-rows: minmax(200px, auto);
     gap: 20px;
     padding: 20px;
+    grid-auto-flow: dense;
+}
+
+@media (min-width: 600px) {
+    .wide {
+        grid-column: span 2;
+    }
+    
+    .tall {
+        grid-row: span 2;
+    }
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
