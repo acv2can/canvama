@@ -352,7 +352,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: greenyellow;
+    background-color: burlywood;
     border-radius: 3px;
     transition: transform 0.3s ease-in-out;
     background-size: cover;
@@ -499,11 +499,9 @@ img {
 @media all and (max-width: 600px) {
     .box-top {
         width: 70%;
-        flex-wrap: wrap;
-
     }
     .box-top > ul {
-        width: 60%;
+        width: 50%;
     }
 
     .box-bottom {
@@ -511,7 +509,15 @@ img {
     }
     form > .info-personal {
         display: grid;
-
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav {
+        padding: 3%;
+        font-size: 4%;
     }
 }
 
@@ -525,6 +531,15 @@ img {
         width: 80%;
         padding-left: 60px;
     }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav {
+        padding: 2%;
+        font-size: 4%;
+    }
 }
 @media all and (max-width: 900px) {
     .box-top {
@@ -535,5 +550,14 @@ img {
     .box-top > ul {
         width: 80%;
         padding-left: 70px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav {
+        padding: 2%;
+        font-size: 4%;
     }
 }
