@@ -90,6 +90,9 @@ footer{
     margin:0.3%; 
 }
 
+.nav:hover {
+    background-color: rosybrown; 
+}
 
 .box-top {
     background-color: papayawhip;
@@ -186,6 +189,7 @@ footer{
     padding: 0.5%;
     
 }
+
 
 .redsoc{
     color: lightcoral;
@@ -525,6 +529,7 @@ img {
         padding: 3%;
         font-size: 10px;
     }
+
     /** resp. index */
     .contenedor {
         padding: auto;
