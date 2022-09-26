@@ -550,8 +550,6 @@ img {
     .texto {
         margin-bottom: 40px;
     }
-    .banner {
-    }
 }
 
 @media all and (max-width: 700px) {
