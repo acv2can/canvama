@@ -525,6 +525,28 @@ img {
         padding: 3%;
         font-size: 10px;
     }
+    .contenedor {
+        padding: auto;
+    }
+    .contenedor-definiciones {
+        display: block;
+        flex-wrap: nowrap;
+    }
+    .caja {
+        flex: auto;
+        flex: initial;
+        flex: none;
+    }
+    .uno,
+    .dos,
+    .tres,
+    .cuatro {
+        height: 15%;
+        width: 90%;
+    }
+    .banner {
+        display: none;
+    }
 }
 
 @media all and (max-width: 700px) {
