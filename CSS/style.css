@@ -1,7 +1,21 @@
 *{  /*aplica a todo el HTML*/
+ 
+    box-sizing: border-box;
     margin:0; 
     padding:0; 
 }
+
+.btn-px {
+    font-size: 80px;
+}
+
+.btn-rem {
+    font-size: 5rem /* 5*16px fuente base =80px*/;
+    padding: .5em;
+    margin: .25em;    
+}
+
+
 
 /** Defincion  SECCIONES Y ETIQUETAS **/
 /*-----------------------------------*/
@@ -13,7 +27,9 @@ body{
     background-position: center;
     background-color: transparent;
     font-family:Tahoma;
-    
+    font-size: 1.20rem;
+    /* min-height: 100%; */
+
     /* margin:1%;  */
     /* margin: 20px auto;
     width: 95%;
@@ -28,6 +44,7 @@ body{
 
 h1{
     text-align: center;
+    font-size: 1.5em;
 }
 
 /** INDEX.HTML*/
@@ -50,6 +67,7 @@ h2{
     border-radius: 5px; 
     font-family:Tahoma;
     text-align: center;
+    font-size: 1.25em;
 }
 
 h3{
@@ -348,8 +366,6 @@ footer{
     grid-row-end: 11;
 }
 
-@media (max-width: 300px) { .foto-titulo { font-size: smaller;}
-
 */
 
 .foto-item > img{
@@ -403,7 +419,8 @@ img {
 }
 
 .contenedor-definiciones {
-	width: 90%;
+    font-size: 0.95em;
+    width: 100%;
     display: flex;
 	flex-wrap: wrap;
     justify-content: space-around;
@@ -416,9 +433,9 @@ img {
     height: auto;
 	width: 40%;
     font-weight: bold;
-	padding: 20px;
+	padding: 1.15rem;
     align-items: space-around;
-    margin: 10px;
+    margin: 0.75rem;
     flex:2 2 1;
 
 }
@@ -450,7 +467,7 @@ img {
 }
 
 .banner {
-	/* border:rgb(211, 22, 22) solid; */
+	border:rgb(211, 22, 22) solid;
     background-color: rgb(231, 191, 191);
 	border-radius: 50px;
     height: auto;
@@ -498,6 +515,8 @@ img {
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
 }
+
+
 
 
 @media all and (max-width: 600px) {
