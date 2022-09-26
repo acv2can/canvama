@@ -13,11 +13,12 @@ body{
     background-position: center;
     background-color: transparent;
     font-family:Tahoma;
+    
     /* margin:1%;  */
-    margin: 20px auto;
+    /* margin: 20px auto;
     width: 95%;
     max-width: 1000px;
-    padding:1%;
+    padding:1%; */
 }
 
 .project {
@@ -29,7 +30,7 @@ h1{
     text-align: center;
 }
 
-
+/** INDEX.HTML*/
 header{
     background-color: burlywood; 
     color: antiquewhite;
@@ -209,13 +210,13 @@ footer{
 .redsoc a:hover 
 {color: whitesmoke; }
 
-
+/*
 .foto-container {
     display:grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(9, 5vw);
     grid-gap: 10px; /*espaciado entre cada una de las columnas*/
-    /* align-content: center; */
+    /* align-content: center; 
     padding: 20px;
 }
 
@@ -225,8 +226,8 @@ footer{
 
 .foto-imagen {
     width: 100%;
-    height: 100%;  /*abarcara el 100% del espacio de la grilla*/
-    object-fit: cover;  /*para que no distorcione la imagen ponemos 100%*/
+    height: 100%;  /*abarcara el 100% del espacio de la grilla
+    object-fit: cover;  /*para que no distorcione la imagen ponemos 100%
 }
 
 .foto-titulo {
@@ -345,9 +346,45 @@ footer{
 
 @media (max-width: 300px) { .foto-titulo { font-size: smaller;}
 
+*/
+
+.foto-item > img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    border-radius: 3px;
+    transition: transform 0.3s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+.foto-item:hover {
+    filter: opacity(0.5);
+    transform: scale(1.04);
+    cursor: pointer;
+}
 
+.foto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(300px, auto);
+    gap: 40px;
+    padding: 20px;
+    grid-auto-flow: dense;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.foto-titulo {
+    color: rgb(193, 144, 81);
+    background: linear-gradient(white, wheat);
+}
 
 .contenedor {
     display: flex;
@@ -458,13 +495,98 @@ footer{
 	cursor: pointer;
 }
 
-@media screen and (max-width: 900px) {
-	
+
+@media all and (max-width: 600px) {
+    .box-top {
+        width: 80%;
+    }
+    .box-top > ul > li{
+        width: 80%;
+        text-align: center;
+    }
+    .box-top-pie {
+        width: 80%;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    .box-bottom {
+        width: 80%;
+    }
+    form > .info-personal {
+        display: grid;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav {
+        padding: 3%;
+        font-size: 10px;
+    }
+    /** resp. index */
+    .contenedor {
+        padding: auto;
+    }
+    .contenedor-definiciones {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+    .caja {
+        flex: auto;
+        flex: initial;
+        flex: none;
+    }
+    .uno,
+    .dos,
+    .tres,
+    .cuatro {
+        height: 15%;
+        width: 90%;
+    }
+    .texto {
+        margin-bottom: 40px;
+    }
 }
 
-@media screen and (max-width: 700px) {}
-	
+@media all and (max-width: 700px) {
+    .box-top {
+        width: 80%;
+    }
+    .box-top > ul {
+        width: 80%;
+        padding-left: 60px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav {
+        padding: 2%;
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 900px) {
+    .box-top {
+        width: 80%;
+        flex-wrap: wrap;
 
-@media screen and (max-width: 600px) {
-
+    }
+    .box-top > ul {
+        width: 80%;
+        padding-left: 70px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav {
+        padding: 1%;
+        font-size: 20px;
+    }
 }
