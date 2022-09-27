@@ -411,47 +411,81 @@ img {
     background-color: rgb(229, 207, 198);
     color: rgb(124, 117, 117);
 	font-family: 'Roboto', sans-serif;  
-    width: 80%;
+    width: 85%;
 	margin: auto;
-	padding: 20px 20px;
-	gap: 20px;
+	padding: 1.25rem 1rem;
+    /* padding: 20px 20px; */
+	gap: 1.25rem;
 
 }
 
-.contenedor-definiciones {
-    font-size: 0.95em;
-    width: 100%;
+.contenedor-caja {
+    font-size: 1.1rem;
+    background-color:whitesmoke;
+	border-radius: 50px;
+    height: auto;
+    width: 80%;
+    /* font-weight: bold; */
+	padding: 1rem;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: flex-start; */
+    align-items: center ;
+    margin: 0.75rem;
+    /* flex:2 2 1; */
+    gap: 1rem 0.5rem;
+}
+
+.caja-uno {
+    width:45%;
+    background-color:rgb(249, 232, 232);
+    border-radius: 50px;
+    padding: 1rem;
     display: flex;
 	flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.caja {
-    /* border:rgb(211, 22, 22) solid; */
-    background-color:whitesmoke;
-	border-radius: 50px;
-    height: auto;
-	width: 40%;
-    font-weight: bold;
-	padding: 1.15rem;
-    align-items: space-around;
-    margin: 0.75rem;
-    flex:2 2 1;
-
+.caja-dos {
+    width:45%;
+    background-color:rgb(243, 233, 216);
+    border-radius: 50px;
+    padding: 1rem;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.caja:nth-child(3){
+.caja-tres{
+    background-color:rgb(234, 219, 192);
+    width:45%;
+    border-radius: 50px;
+    padding: 1rem;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caja-cuatro{
     background-color:rgb(244, 216, 216);
+    width:45%;
+    border-radius: 50px;
+    padding: 1rem;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.caja:nth-child(4){
-    background-color:rgb(244, 216, 216);
-}
-
-.caja:nth-child(5){
+.caja-cinco{
     width: 90%;
     color: whitesmoke;
     background-color: rgb(203, 179, 179);
+    display: flex;
+    border-radius: 50px;
+    padding: 1rem;
+	flex-wrap: wrap;
+    justify-content: space-around;
     }
 
 .titulo {
@@ -470,6 +504,7 @@ img {
 	border:rgb(211, 22, 22) solid;
     background-color: rgb(231, 191, 191);
 	border-radius: 50px;
+    display: flex;
     height: auto;
     text-align: center;
     align-items: center;
@@ -477,7 +512,11 @@ img {
   	padding: 2%;
 	background-size: cover;
 	background-position: center center;
-	width: 10%;
+    font-size: 1.1rem;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+	width: 20%;
 }
 
 .banner p {
@@ -559,7 +598,7 @@ img {
         gap: 10px;
         flex-wrap: nowrap;
     }
-    .caja {
+    .caja-{
         flex: auto;
         flex: initial;
         flex: none;
