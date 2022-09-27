@@ -506,18 +506,18 @@ img {
     background-color: rgb(232, 217, 217);
 	border-radius: 50px;
     display: flex;
-    height: auto;
     text-align: center;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
   	padding: 2%;
 	background-size: cover;
 	background-position: center center;
     font-size: 1.1rem;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-	width: 20%;
+    height: auto;
+    width: 20%;
 }
 
 .banner p {
