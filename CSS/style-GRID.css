@@ -311,16 +311,18 @@ footer{
         }
 
     .caja-banner {
-        grid-area: 6 / 1 / span 1 / span 1;
+         /* grid-area: 6 / 1 / span 1 / span 1; */
         /* border:rgb(211, 22, 22) solid; */
-        background-color: rgb(232, 217, 217);
-        border-radius: 50px;
+        /* background-color: rgb(232, 217, 217); */
+        /* border-radius: 50px; */
         /* text-align: center;
         align-items: center;
         justify-content: center; */
         /* background-size: cover; */
         /* background-position: center center; */
-        font-size: 1.1rem;
+        /* font-size: 1.1rem; */
+        /* display: hidden; */
+        visibility:none;
     }
 
     /* 
