@@ -104,7 +104,7 @@ footer{
     text-decoration: none; /**con esto elimino el subrayado de los link q coloca x default**/
     padding: 5px; /**le amplio la zona sombreada sobre el boton del link**/
     border-radius: 5px; /**redondeo los bordes del sombreado**/
-    font-size:1.25vw; 
+    font: size 20px;; 
     margin:0.3%; 
 }
 
@@ -211,7 +211,7 @@ footer{
 
 .redsoc{
     color: lightcoral;
-    font-size:1.25vw; 
+    font: size 20px;; 
     text-align:center;
     text-decoration: none;
 }
@@ -406,160 +406,12 @@ img {
     background: linear-gradient(white, wheat);
 }
 
-.contenedor {
-    display: flex;
-    /* background-color: rgb(229, 207, 198); */
-    color: rgb(124, 117, 117);
-	font-family: 'Roboto', sans-serif;  
-    width: 85%;
-	margin: auto;
-	/* padding: 1.25rem 1rem; */
-    /* padding: 20px 20px; */
-	gap: 1.25rem;
-
-}
-
-.contenedor-caja {
-    font-size: 1.1rem;
-    background-color:whitesmoke;
-	border-radius: 50px;
-    height: auto;
-    width: 80%;
-    /* font-weight: bold; */
-	padding: 1rem;
-    display: flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
-    /* align-content: flex-start; */
-    align-items: center ;
-    margin: 0.75rem;
-    /* flex:2 2 1; */
-    gap: 1rem 0.5rem;
-}
-
-.caja-uno {
-    width:45%;
-    background-color:rgb(249, 232, 232);
-    border-radius: 50px;
-    padding: 1rem;
-    display: flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.caja-dos {
-    width:45%;
-    background-color:rgb(243, 233, 216);
-    border-radius: 50px;
-    padding: 1rem;
-    display: flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.caja-tres{
-    background-color:rgb(234, 219, 192);
-    width:45%;
-    border-radius: 50px;
-    padding: 1rem;
-    display: flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.caja-cuatro{
-    background-color:rgb(244, 216, 216);
-    width:45%;
-    border-radius: 50px;
-    padding: 1rem;
-    display: flex;
-	flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.caja-cinco{
-    width: 90%;
-    color: whitesmoke;
-    background-color: rgb(203, 179, 179);
-    display: flex;
-    border-radius: 50px;
-    padding: 1rem;
-	flex-wrap: wrap;
-    justify-content: space-around;
-    }
-
-.titulo {
-	font-size: 20px;
-    font-weight: bold;
-	padding: 20px 0;
-    text-align: center;
-    color: rgb(180, 52, 52);
-
-}
-
-.texto {
-    text-align: center;
-}
-
-.banner {
-	/* border:rgb(211, 22, 22) solid; */
-    background-color: rgb(232, 217, 217);
-	border-radius: 50px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-  	padding: 2%;
-	background-size: cover;
-	background-position: center center;
-    font-size: 1.1rem;
-    height: auto;
-    width: 20%;
-}
-
-.banner p {
-    color: rgb(211, 22, 22);
-    font-family: sans-serif;
-    font-size:relative; 
-    flex-wrap: wrap;
-           
-}
-
-.banner ul {
-	list-style: none;
-    
-}
-
-.banner ul li {
-	margin: 4%;
-    /* margin: 15px; */
-	font-weight: bold;
-    display: block;
-}
-
-.banner .boton {
-	background: pink;
-    border:white solid; 
-	display: block;
-	width: 100%;
-	font-weight: bold;
-	font-size: 14px;
-	text-align: center;
-	padding: 10px;
-	/* border: none; */
-	border-radius: 100px;
-	font-family: 'Roboto', sans-serif;
-	cursor: pointer;
-}
 
 
+/*LAYOUT CELULAR         */
+/*************************/
 
-
-@media all and (max-width: 600px) {
-    .box-top {
+.box-top {
         width: 80%;
     }
     .box-top > ul > li{
@@ -580,42 +432,146 @@ img {
     }
     nav {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        /* justify-content: space-around; */
+        align-items: stretch;
     }
     .nav {
         padding: 3%;
-        font-size: 10px;
+        font-size: 15px;
     }
 
-    /** resp. index */
+
     .contenedor {
-        padding: auto;
-    }
-    .contenedor-definiciones {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        flex-wrap: nowrap;
-    }
-    .caja-{
-        flex: auto;
-        flex: initial;
-        flex: none;
-    }
-    .uno,
-    .dos,
-    .tres,
-    .cuatro {
-        height: 15%;
+        /* background-color: rgb(229, 207, 198); */
+        background-color:  beige;
+        color: rgb(124, 117, 117);
+        font-family: 'Roboto', sans-serif;  
         width: 90%;
-    }
-    .texto {
-        margin-bottom: 40px;
-    }
-}
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        padding: 10px;
+        margin: auto;
+        gap: 10px;     /*aqui el ancho de la columna se ajusta automat. asiq solo definimos size row*/
 
-@media all and (max-width: 700px) {
+    }
+
+
+    .contenedor > div {
+        /* background-color: rgba(255, 255, 255, 0.8); */
+        text-align: center;
+        padding: 20px 0;
+        font-size: 20px;
+      }
+    
+
+    .caja-uno {
+        grid-area: 1 / 1 / span 1 / span 1;
+        /* grid-area: caja-uno; */
+        background-color:rgb(249, 232, 232);
+        border-radius: 50px;
+        padding: 1rem;
+        gap: 10px;
+    }
+    
+    .caja-dos {
+        /* grid-area: caja-dos; */
+        grid-area: 2 / 1 / span 1 / span 1;
+        background-color:rgb(243, 233, 216);
+        border-radius: 50px;
+        padding: 1rem;
+        gap: 10px;
+    }
+    
+    .caja-tres{
+        grid-area: 3 / 1 / span 1 / span 1;
+        /* grid-area: caja-tres; */
+        background-color:rgb(234, 219, 192);
+        border-radius: 50px;
+        padding: 1rem;
+    }
+    
+    .caja-cuatro{
+        grid-area: 4 / 1 / span 1 / span 1;
+        /* grid-area: caja-cuatro; */
+        background-color:rgb(244, 216, 216);
+        border-radius: 50px;
+        padding: 1rem;
+    }
+    
+    .caja-cinco{
+        grid-area: 5 / 1 / span 1 / span 1;
+        /* grid-area: caja-cinco; */
+        color: whitesmoke;
+        background-color: rgb(203, 179, 179);
+        /* display: flex; */
+        border-radius: 50px;
+        padding: 1rem;
+        /* flex-wrap: wrap;
+        justify-content: space-around; */
+        }
+
+    .caja-banner {
+        display: none;
+    }
+
+    
+    .titulo {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px 0;
+        text-align: center;
+        color: rgb(180, 52, 52);
+    
+    }
+    
+    .texto {
+        text-align: center;
+    }
+    
+    
+    .caja-banner p {
+        color: rgb(211, 22, 22);
+        font-family: sans-serif;
+        font-size:relative; 
+        flex-wrap: wrap;
+               
+    }
+    
+    .caja-banner ul {
+        list-style: none;
+        
+    }
+    
+    .caja-banner ul li {
+        margin: 4%; 
+        margin: 15px; 
+        font-weight: bold;
+        display: block;
+    }
+    
+    .caja-banner .boton {
+        background-color: pink;
+        border:white solid; 
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px; 
+        border: none;
+        border-radius: 100px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+
+/* LAYOUT TABLET     */
+/********************/
+
+@media (min-width: 700px) {
+    html {
+        font-size: 100%;
+    }
     .box-top {
         width: 80%;
     }
@@ -632,8 +588,99 @@ img {
         padding: 2%;
         font-size: 15px;
     }
+    .contenedor {
+        /* background-color: rgb(229, 207, 198); */
+        background-color:  pink;
+        color: rgb(124, 117, 117);
+        font-family: 'Roboto', sans-serif;  
+        width: 90%;
+
+        display: grid;
+        grid-template-columns: auto auto 150px;
+        grid-gap: 10px;
+        padding: 10px;
+        margin: auto;
+        gap: 10px;     /*aqui el ancho de la columna se ajusta automat. asiq solo definimos size row*/
+    }
+
+
+    .contenedor > div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 20px;
+      }
+    
+
+    .caja-uno {
+        grid-area: 1 / 1 / span 1 / span 1;
+        /* width:45%; */
+        background-color:rgb(249, 232, 232);
+        border-radius: 50px;
+        padding: 1rem;
+        gap: 10px;
+    }
+    
+    .caja-dos {
+        grid-area: 1 / 2 / span 1 / span 1;
+        /* width:45%; */
+        background-color:rgb(243, 233, 216);
+        border-radius: 50px;
+        padding: 1rem;
+        gap: 10px;
+    }
+    
+    .caja-tres{
+        grid-area: 2 / 1 / span 1 / span 1;
+        background-color:rgb(234, 219, 192);
+        /* width:45%; */
+        border-radius: 50px;
+        padding: 1rem;
+    }
+    
+    .caja-cuatro{
+        grid-area: 2 / 2 / span 1 / span 1;
+        background-color:rgb(244, 216, 216);
+        /* width:45%; */
+        border-radius: 50px;
+        padding: 1rem;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+    }
+    
+    .caja-cinco{
+        grid-area: 3 / 1 / span 1 / span 2;
+        /* width: 90%; */
+        background-color: rgb(203, 179, 179);
+        /* display: flex; */
+        border-radius: 50px;
+        padding: 1rem;
+        /* flex-wrap: wrap;
+        justify-content: space-around; */
+    }
+    .caja-banner {
+        grid-area: 1 / 3 / span 3 / span 1;
+        /* border:rgb(211, 22, 22) solid; */
+        background-color: rgb(232, 217, 217);
+        border-radius: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        /* background-size: cover; */
+        /* background-position: center center; */
+        /* font-size: 1.1rem; */
+        display: block;
+    }  
 }
-@media all and (max-width: 900px) {
+
+
+/* LAYOUT DESKTOP          */
+/***************************/
+
+@media (min-width: 900px) {
+    html {
+        font-size: 100%;
+    }
     .box-top {
         width: 80%;
         flex-wrap: wrap;
@@ -645,11 +692,86 @@ img {
     }
     nav {
         display: flex;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         align-items: center;
     }
     .nav {
         padding: 1%;
         font-size: 20px;
+    }
+
+    .contenedor {
+        background-color: whitesmoke;
+        color: rgb(124, 117, 117);
+        font-family: 'Roboto', sans-serif;  
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto auto 200px;
+        grid-gap: 5px;
+        padding: 20px;
+        margin: auto;
+        gap: 20px;     /*aqui el ancho de la columna se ajusta automat. asiq solo definimos size row*/
+
+    }
+
+    .contenedor > div {
+        text-align: center;
+        padding: 10px 5px;
+        font-size: 20px;
+      }
+    
+    .caja-uno {
+        grid-area: 1 / 1 / span 1 / span 1;
+        background-color:rgb(249, 232, 232);
+        border-radius: 50px;
+        padding: 1rem;
+        gap: 10px;
+    }
+    
+    .caja-dos {
+        grid-area: 1 / 2 / span 1 / span 1;
+        /* width:45%; */
+        background-color:rgb(243, 233, 216);
+        border-radius: 50px;
+        padding: 1rem;
+        gap: 10px;
+    }
+    
+    .caja-tres{
+        grid-area: 2 / 1 / span 1 / span 1;
+        /* width:45%; */
+        background-color:rgb(234, 219, 192;
+        border-radius: 50px;
+        padding: 1rem;
+    }
+    
+    .caja-cuatro{
+        grid-area: 2 / 2 / span 1 / span 1;
+        background-color:rgb(234, 219, 192);
+        border-radius: 50px;
+        padding: 1rem;
+    }
+    
+    .caja-cinco{
+        grid-area: 3 / 1 / span 1 / span 2;
+        background-color: rgb(203, 179, 179;
+        /* display: flex; */
+        border-radius: 50px;
+        padding: 1rem;
+    }
+
+    .caja-banner {
+        grid-area: 1 / 3 / span 3 / span 1;
+        /* border:rgb(211, 22, 22) solid; */
+        background-color: rgb(232, 217, 217);
+        border-radius: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        /* background-position: center center; */
+        /* font-size: 1.1rem; */
+        display: block;
+
     }
 }

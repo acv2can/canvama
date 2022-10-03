@@ -260,7 +260,7 @@ footer{
         background-color: rgba(255, 255, 255, 0.8);
         text-align: center;
         padding: 20px 0;
-        font-size: 30px;
+        font-size: 20px;
       }
     
 
@@ -311,7 +311,7 @@ footer{
         }
 
     .caja-banner {
-        grid-area: 6 / 1 / span 1 / span 1;
+        /* grid-area: 6 / 1 / span 1 / span 1; */
         /* border:rgb(211, 22, 22) solid; /
         background-color: rgb(232, 217, 217);
         border-radius: 50px;
@@ -320,12 +320,12 @@ footer{
         justify-content: center; /
         / background-size: cover; /
         / background-position: center center; */
-        font-size: 1.1rem;
+        /* font-size: 1.1rem; */
         display: none;
 
     }
 
-    /* 
+    
     .titulo {
         font-size: 20px;
         font-weight: bold;
@@ -337,26 +337,26 @@ footer{
     
     .texto {
         text-align: center;
-    } */
+    }
     
     
-    /* .caja-banner p {
+    .caja-banner p {
         color: rgb(211, 22, 22);
         font-family: sans-serif;
         font-size:relative; 
-        lex-wrap: wrap;
+        flex-wrap: wrap;
                
-    } */
+    }
     
-    /* .caja-banner ul {
+    .caja-banner ul {
         list-style: none;
         
-    } */
+    }
     
-    /* .caja-banner ul li {
-        margin: 4%; */
-        /* margin: 15px; */
-        /* font-weight: bold;
+    .caja-banner ul li {
+        margin: 4%; 
+        margin: 15px; 
+        font-weight: bold;
         display: block;
     }
     
@@ -368,12 +368,12 @@ footer{
         font-weight: bold;
         font-size: 14px;
         text-align: center;
-        padding: 10px; */
-        /* border: none; */
-        /* border-radius: 100px;
+        padding: 10px; 
+        border: none;
+        border-radius: 100px;
         font-family: 'Roboto', sans-serif;
         cursor: pointer;
-    } */
+    }
        
 /* LAYOUT TABLET     */
 /********************/
@@ -390,7 +390,7 @@ footer{
         width: 90%;
 
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto 150px;
         grid-gap: 10px;
         padding: 10px;
         margin: auto;
@@ -401,7 +401,7 @@ footer{
     .contenedor > div {
         text-align: center;
         padding: 20px 0;
-        font-size: 30px;
+        font-size: 20px;
       }
     
 
@@ -458,13 +458,13 @@ footer{
         /* border:rgb(211, 22, 22) solid; */
         background-color: rgb(232, 217, 217);
         border-radius: 50px;
-        /* text-align: center;
+        text-align: center;
         align-items: center;
-        justify-content: center; */
+        justify-content: center;
         /* background-size: cover; */
         /* background-position: center center; */
-        font-size: 1.1rem;
-        display: flex;
+        /* font-size: 1.1rem; */
+        display: block;
     }    
 }
 
@@ -474,6 +474,7 @@ footer{
     html {
         font-size: 100%;
     }
+  
     .contenedor {
         /* background-color: rgb(229, 207, 198); */
         background-color: brown;
@@ -482,7 +483,8 @@ footer{
         width: 90%;
 
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto 200px;
+        /* grid-template-columns: auto auto auto; */
         grid-gap: 10px;
         padding: 10px;
         margin: auto;
@@ -493,7 +495,7 @@ footer{
     .contenedor > div {
         text-align: center;
         padding: 20px 0;
-        font-size: 30px;
+        font-size: 20px;
       }
     
     .caja-uno {
@@ -549,11 +551,13 @@ footer{
         /* border:rgb(211, 22, 22) solid; */
         background-color: rgb(232, 217, 217);
         border-radius: 50px;
-        /* text-align: center;
+        text-align: center;
         align-items: center;
-        justify-content: center; */
+        justify-content: center;
         /* background-size: cover; */
         /* background-position: center center; */
-        font-size: 1.1rem;
+        /* font-size: 1.1rem; */
+        display: block;
+
     }
 }
