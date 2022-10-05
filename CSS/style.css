@@ -115,9 +115,10 @@ footer{
 
 .box-top {
     background-color: papayawhip;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     /* border: 4px outset burlywood; */
     border-radius: 20%;
-    padding: 2%;
+    padding: 20px;
     height: 50%;
     width: 55%;
     margin: 2% auto;
@@ -128,6 +129,7 @@ footer{
     animation-direction: alternate;
     animation-duration: 10s;
     animation-delay: 5s;
+    display: block;
 }
 
 .box-top ul{
