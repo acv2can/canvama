@@ -106,6 +106,7 @@ footer{
     border-radius: 5px; /**redondeo los bordes del sombreado**/
     font: size 20px;; 
     margin:0.3%; 
+    
 }
 
 .nav:hover {
@@ -430,16 +431,7 @@ img {
     form > .info-personal {
         display: grid;
     }
-    nav {
-        display: flex;
-        /* justify-content: space-around; */
-        align-items: stretch;
-    }
-    .nav {
-        padding: 3%;
-        font-size: 15px;
-    }
-
+    
 
     .contenedor {
         /* background-color: rgb(229, 207, 198); */
@@ -531,7 +523,7 @@ img {
     
     
     .caja-banner p {
-        color: rgb(211, 22, 22);
+        color: rgb(160, 102, 102);
         font-family: sans-serif;
         font-size:relative; 
         flex-wrap: wrap;
@@ -579,15 +571,8 @@ img {
         width: 80%;
         padding-left: 60px;
     }
-    nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .nav {
-        padding: 2%;
-        font-size: 15px;
-    }
+
+    
     .contenedor {
         /* background-color: rgb(229, 207, 198); */
         background-color:  pink;
@@ -690,15 +675,7 @@ img {
         width: 80%;
         padding-left: 70px;
     }
-    nav {
-        display: flex;
-        /* justify-content: space-around; */
-        align-items: center;
-    }
-    .nav {
-        padding: 1%;
-        font-size: 20px;
-    }
+    
 
     .contenedor {
         background-color: whitesmoke;
