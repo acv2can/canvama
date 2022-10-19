@@ -117,8 +117,8 @@ footer{
     background-color: papayawhip;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     /* border: 4px outset burlywood; */
-    border-radius: 20%;
-    padding: 20px;
+    border-radius: 5%;
+    padding: 30px;
     height: 50%;
     width: 55%;
     margin: 2% auto;
@@ -134,6 +134,7 @@ footer{
 
 .box-top ul{
     font-style: oblique;
+    /* align-content: center; */
     color: rgb(165, 96, 43);
 }
 
@@ -418,8 +419,8 @@ img {
         width: 80%;
     }
     .box-top > ul > li{
-        width: 80%;
-        text-align: center;
+        width: 100%;
+        text-align: left;
     }
     .box-top-pie {
         width: 80%;
@@ -566,13 +567,22 @@ img {
     html {
         font-size: 100%;
     }
+
     .box-top {
         width: 80%;
     }
-    .box-top > ul {
-        width: 80%;
-        padding-left: 60px;
+    .box-top > ul > li{
+        width: 100%;
+        text-align: left;
     }
+    /* .box-top {
+        width: 80%;
+    }
+    .box-top > ul {
+        width: 100%;
+        text-align: left;
+        padding-left: 60px;
+    } */
 
     
     .contenedor {
@@ -668,15 +678,24 @@ img {
     html {
         font-size: 100%;
     }
+
     .box-top {
         width: 80%;
+    }
+    .box-top > ul > li{
+        width: 100%;
+        text-align: left;
+    }
+    /* .box-top {
+        width: 80%;
+        text-align: left;
         flex-wrap: wrap;
 
     }
     .box-top > ul {
-        width: 80%;
-        padding-left: 70px;
-    }
+        width: 100%;
+        padding: 10px;
+    } */
     
 
     .contenedor {
