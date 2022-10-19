@@ -49,7 +49,8 @@ h1{
 
 /** INDEX.HTML*/
 header{
-    background-color: burlywood; 
+    background-color: #d4b691;
+    /* background-color: burlywood;  */
     color: antiquewhite;
     border-radius: 5px; /**redondeo los bordes del sombreado**/
     text-align: center;
@@ -83,7 +84,8 @@ h4 {
 }
 
 footer{
-    background-color: burlywood; 
+    /* background-color: burlywood;  */
+    background-color: #d4b691;
     color:  antiquewhite;
     border-radius: 5px; /**redondeo los bordes del sombreado**/
     font-family:Tahoma;
@@ -125,16 +127,17 @@ footer{
     font-family: Calibri;
     font-size:large;
     animation: zoomIn;
-    animation-iteration-count: four;
+    /* animation-iteration-count: four; */
     animation-direction: alternate;
-    animation-duration: 10s;
+    /* animation-duration: 10s; */
     animation-delay: 5s;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
     display: block;
 }
 
 .box-top ul{
     font-style: oblique;
-    /* align-content: center; */
     color: rgb(165, 96, 43);
 }
 
@@ -153,6 +156,7 @@ footer{
 
 .box-top-pie {
     text-decoration-line: underline;
+    text-align: center;
 }
 
 
@@ -166,6 +170,7 @@ footer{
     width: 75%;
     margin: 2% auto;
     font-family: Calibri;
+    text-align: center;
 }
 
 
@@ -421,16 +426,19 @@ img {
     .box-top > ul > li{
         width: 100%;
         text-align: left;
+        /* margin: 5% 5%; */
+        /* display: flex; */
     }
     .box-top-pie {
-        width: 80%;
+        /* width: 80%; */
         text-align: center;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
 
     .box-bottom {
         width: 80%;
     }
+   
     form > .info-personal {
         display: grid;
     }
@@ -438,7 +446,8 @@ img {
 
     .contenedor {
         /* background-color: rgb(229, 207, 198); */
-        background-color:  beige;
+        /* background-color:  beige; */
+        background-color: #e3d5ca;
         color: rgb(124, 117, 117);
         font-family: 'Roboto', sans-serif;  
         width: 90%;
@@ -463,7 +472,8 @@ img {
     .caja-uno {
         grid-area: 1 / 1 / span 1 / span 1;
         /* grid-area: caja-uno; */
-        background-color:rgb(249, 232, 232);
+        /* background-color:rgb(249, 232, 232); */
+        background-color: #e3d5ca;
         border-radius: 50px;
         padding: 1rem;
         gap: 10px;
@@ -481,7 +491,8 @@ img {
     .caja-tres{
         grid-area: 3 / 1 / span 1 / span 1;
         /* grid-area: caja-tres; */
-        background-color:rgb(234, 219, 192);
+        /* background-color:rgb(234, 219, 192); */
+        background-color: #e3d5ca;
         border-radius: 50px;
         padding: 1rem;
     }
@@ -489,7 +500,8 @@ img {
     .caja-cuatro{
         grid-area: 4 / 1 / span 1 / span 1;
         /* grid-area: caja-cuatro; */
-        background-color:rgb(244, 216, 216);
+        /* background-color:rgb(244, 216, 216); */
+        background-color:rgb(243, 233, 216);
         border-radius: 50px;
         padding: 1rem;
     }
@@ -497,8 +509,9 @@ img {
     .caja-cinco{
         grid-area: 5 / 1 / span 1 / span 1;
         /* grid-area: caja-cinco; */
-        color: whitesmoke;
-        background-color: rgb(203, 179, 179);
+        /* color: whitesmoke; */
+        /* background-color: rgb(203, 179, 179); */
+        background-color: #e3d5ca;
         /* display: flex; */
         border-radius: 50px;
         padding: 1rem;
@@ -546,7 +559,7 @@ img {
     }
     
     .caja-banner .boton {
-        background-color: pink;
+        background-color: blanchedalmond;
         border:white solid; 
         display: block;
         width: 100%;
@@ -567,7 +580,6 @@ img {
     html {
         font-size: 100%;
     }
-
     .box-top {
         width: 80%;
     }
@@ -575,19 +587,12 @@ img {
         width: 100%;
         text-align: left;
     }
-    /* .box-top {
-        width: 80%;
-    }
-    .box-top > ul {
-        width: 100%;
-        text-align: left;
-        padding-left: 60px;
-    } */
 
     
     .contenedor {
         /* background-color: rgb(229, 207, 198); */
-        background-color:  pink;
+        /* background-color:  pink; */
+        background-color: #f4f1ee;
         color: rgb(124, 117, 117);
         font-family: 'Roboto', sans-serif;  
         width: 90%;
@@ -611,7 +616,8 @@ img {
     .caja-uno {
         grid-area: 1 / 1 / span 1 / span 1;
         /* width:45%; */
-        background-color:rgb(249, 232, 232);
+        /* background-color:rgb(249, 232, 232); */
+        background-color: #e4dcd7;
         border-radius: 50px;
         padding: 1rem;
         gap: 10px;
@@ -636,7 +642,8 @@ img {
     
     .caja-cuatro{
         grid-area: 2 / 2 / span 1 / span 1;
-        background-color:rgb(244, 216, 216);
+        /* background-color:rgb(244, 216, 216); */
+        background-color: #e3d5ca;
         /* width:45%; */
         border-radius: 50px;
         padding: 1rem;
@@ -648,7 +655,8 @@ img {
     .caja-cinco{
         grid-area: 3 / 1 / span 1 / span 2;
         /* width: 90%; */
-        background-color: rgb(203, 179, 179);
+        /* background-color: rgb(203, 179, 179); */
+        background-color: #e7decd;
         /* display: flex; */
         border-radius: 50px;
         padding: 1rem;
@@ -658,7 +666,8 @@ img {
     .caja-banner {
         grid-area: 1 / 3 / span 3 / span 1;
         /* border:rgb(211, 22, 22) solid; */
-        background-color: rgb(232, 217, 217);
+        /* background-color: rgb(232, 217, 217); */
+        background-color: #efede6;
         border-radius: 50px;
         text-align: center;
         align-items: center;
@@ -681,20 +690,21 @@ img {
 
     .box-top {
         width: 80%;
+        flex-wrap: wrap;
     }
     .box-top > ul > li{
         width: 100%;
-        text-align: left;
+        text-align: center;
+        list-style: none;
     }
     /* .box-top {
         width: 80%;
-        text-align: left;
         flex-wrap: wrap;
 
     }
     .box-top > ul {
-        width: 100%;
-        padding: 10px;
+        width: 80%;
+        padding-left: 70px;
     } */
     
 
@@ -720,7 +730,8 @@ img {
     
     .caja-uno {
         grid-area: 1 / 1 / span 1 / span 1;
-        background-color:rgb(249, 232, 232);
+        /* background-color:rgb(249, 232, 232); */
+        background-color:rgb(245, 236, 221);
         border-radius: 50px;
         padding: 1rem;
         gap: 10px;
@@ -729,7 +740,7 @@ img {
     .caja-dos {
         grid-area: 1 / 2 / span 1 / span 1;
         /* width:45%; */
-        background-color:rgb(243, 233, 216);
+        background-color:rgb(230, 223, 211);
         border-radius: 50px;
         padding: 1rem;
         gap: 10px;
@@ -738,7 +749,7 @@ img {
     .caja-tres{
         grid-area: 2 / 1 / span 1 / span 1;
         /* width:45%; */
-        background-color:rgb(234, 219, 192;
+        background-color:rgb(242, 224, 192);
         border-radius: 50px;
         padding: 1rem;
     }
@@ -752,7 +763,8 @@ img {
     
     .caja-cinco{
         grid-area: 3 / 1 / span 1 / span 2;
-        background-color: rgb(203, 179, 179;
+        /* background-color: rgb(210, 194, 169); */
+        background-color: #f5ebe0;
         /* display: flex; */
         border-radius: 50px;
         padding: 1rem;
@@ -761,7 +773,8 @@ img {
     .caja-banner {
         grid-area: 1 / 3 / span 3 / span 1;
         /* border:rgb(211, 22, 22) solid; */
-        background-color: rgb(232, 217, 217);
+        /* background-color: rgb(232, 217, 217); */
+        background-color: #e3d5ca;
         border-radius: 50px;
         text-align: center;
         align-items: center;
