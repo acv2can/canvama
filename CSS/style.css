@@ -689,7 +689,7 @@ img {
     }
 
     .box-top {
-        width: 80%;
+        width: 65%;
         flex-wrap: wrap;
     }
     .box-top > ul > li{
