@@ -38,7 +38,7 @@
     grid-gap: 10px; /*espaciado entre cada una de las columnas*/
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     margin: 20px auto;
-    width: 95%;
+    width: 70%;
     max-width: 1000px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -56,8 +56,8 @@
 }
 
 .socio-foto { 
-    width: 90%;
-    height: 90%;  /*abarcara el 100% del espacio de la grilla*/
+    width: 85%;
+    height: 85%;  /*abarcara el 100% del espacio de la grilla*/
     object-fit: cover;  /*para que no distorcione la imagen ponemos 100%*/
     /* animation: bounce; */
     /* animation: flip;  */
