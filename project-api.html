@@ -27,11 +27,29 @@
         <a class="nav" href="about.html"   >Nosotros</a>
         <a class="nav" href="project.html" >Proyectos</a>
         <a class="nav" href="contact.html" >Contacto</a>
+        <div class="buscador">
+          <form class="texto">
+            <input type="text" id="busqueda" placeholder="GIFS">
+            <button type="button" id="btn">Buscar</button>
+          </form>
+        </div>
       </nav>
       <br>
     <h1>CANVAMA Decoradores</h1>
     <h2>Decoración sustentable</h2>
   </header>
+  <style>
+    #btn {
+      margin-top: 20px;
+      height: 20px;
+      width: 50px;
+    }
+    .gif {
+      width: 200px;
+      height: 200px;
+      gap: 20px;
+    }
+  </style>
  <!-- <main>
   <br>
     <div class="foto-container">
@@ -98,12 +116,14 @@
         
     </div>
     <br> -->
-    <div class="api-container"> 
-    </div>
  <!-- </main> -->
- <script src="js/project.js"></script>
-</body>
+ <div class="api-container"> 
+  <div id="portfolio">
 
+  </div>
+</div>
+ <script src="js/api-index.js"></script>
+</body>
 <footer>
     <br>
     <a class="redsoc" href="https://instagram.com/canvama.deco/" target="_blank";> <i class="fa-brands fa-square-instagram" aria-hidden="true"> </i> </a>
