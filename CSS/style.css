@@ -119,8 +119,8 @@ footer{
     background-color: papayawhip;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
     /* border: 4px outset burlywood; */
-    border-radius: 20%;
-    padding: 20px;
+    border-radius: 5%;
+    padding: 30px;
     height: 50%;
     width: 55%;
     margin: 2% auto;
@@ -156,6 +156,7 @@ footer{
 
 .box-top-pie {
     text-decoration-line: underline;
+    text-align: center;
 }
 
 
@@ -169,6 +170,7 @@ footer{
     width: 75%;
     margin: 2% auto;
     font-family: Calibri;
+    text-align: center;
 }
 
 
@@ -422,18 +424,21 @@ img {
         width: 80%;
     }
     .box-top > ul > li{
-        width: 80%;
-        text-align: center;
+        width: 100%;
+        text-align: left;
+        /* margin: 5% 5%; */
+        /* display: flex; */
     }
     .box-top-pie {
-        width: 80%;
+        /* width: 80%; */
         text-align: center;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
 
     .box-bottom {
         width: 80%;
     }
+   
     form > .info-personal {
         display: grid;
     }
@@ -578,9 +583,9 @@ img {
     .box-top {
         width: 80%;
     }
-    .box-top > ul {
-        width: 80%;
-        padding-left: 60px;
+    .box-top > ul > li{
+        width: 100%;
+        text-align: left;
     }
 
     
@@ -682,7 +687,17 @@ img {
     html {
         font-size: 100%;
     }
+
     .box-top {
+        width: 65%;
+        flex-wrap: wrap;
+    }
+    .box-top > ul > li{
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+    /* .box-top {
         width: 80%;
         flex-wrap: wrap;
 
@@ -690,7 +705,7 @@ img {
     .box-top > ul {
         width: 80%;
         padding-left: 70px;
-    }
+    } */
     
 
     .contenedor {
