@@ -1,0 +1,73 @@
+*{  /*aplica a todo el HTML*/
+    margin:0; 
+    padding:0; 
+}
+
+/** Defincion  CLASES ABOUT.html**/
+/*------------------------------*/
+
+
+.video-container {
+    border-color: chocolate;
+    width: 100%;
+    height: 100%;  /*abarcara el 100% del espacio de la grilla*/
+    object-fit: cover;  /*para que no distorcione la imagen ponemos 100%*/
+    align-items: center ;
+}
+
+.video-video {
+    text-align: center;
+
+}
+
+.video-item {
+    border-radius: 5%;
+    background-color:  rgb(218, 210, 201);
+    padding: 1%;
+}
+
+.video-titulo h4{
+    bottom: 0;
+    color: rgb(193, 144, 81);
+    background: linear-gradient(white, wheat);
+}
+
+
+.socio-container {
+    display: grid;
+    grid-gap: 10px; /*espaciado entre cada una de las columnas*/
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    margin: 20px auto;
+    width: 70%;
+    max-width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    background: linear-gradient(white, wheat);
+    padding:20px;
+     
+}
+
+.socio-texto { 
+    border-radius: 5%;
+    background-color:  rgb(218, 210, 201);
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.socio-foto { 
+    width: 85%;
+    height: 85%;  /*abarcara el 100% del espacio de la grilla*/
+    object-fit: cover;  /*para que no distorcione la imagen ponemos 100%*/
+    /* animation: bounce; */
+    /* animation: flip;  */
+    /* animation: lightSpeedInRight; */
+    animation: slideInDown;
+    /* animation-iteration-count: infinite; */
+    animation-direction: alternate;
+    /* animation-duration: 5s; */
+    animation-delay: 9s;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
