@@ -71,3 +71,35 @@
     animation-iteration-count: 3;
 }
 
+/*LAYOUT CELULAR         */
+/*************************/
+
+.socio-container {
+    width: 90%;
+}
+.socio-foto {
+    width: 100%;
+}
+/* LAYOUT TABLET     */
+/********************/
+
+@media (min-width: 700px) {
+.socio-container {
+    width: 95%;
+}
+.socio-titulo {
+    font-size: 1.5rem;
+}
+}
+
+/* LAYOUT DESKTOP          */
+/***************************/
+
+@media (min-width: 900px) {
+.socio-container {
+    width: 95%;
+}
+.socio-titulo {
+    font-size: 1.5rem;
+}
+}
