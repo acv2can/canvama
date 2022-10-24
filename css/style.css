@@ -115,6 +115,23 @@ footer{
     background-color: rosybrown; 
 }
 
+.nav-api {
+    background-color:  antiquewhite; 
+    color: lightcoral;
+    text-decoration: none; /**con esto elimino el subrayado de los link q coloca x default**/
+    padding: 5px; /**le amplio la zona sombreada sobre el boton del link**/
+    border-radius: 5px; /**redondeo los bordes del sombreado**/
+    font: size 20px;; 
+    margin:0.3%; 
+    
+}
+
+.nav-api:hover {
+    background-color: rosybrown; 
+}
+
+
+
 .box-top {
     background-color: papayawhip;
     box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
@@ -416,6 +433,16 @@ img {
 }
 
 
+#btn {
+      margin-top: 20px;
+      height: 20px;
+      width: 50px;
+    }
+    .gif {
+      width: 200px;
+      height: 200px;
+      gap: 20px;
+    }
 
 /*LAYOUT CELULAR         */
 /*************************/
