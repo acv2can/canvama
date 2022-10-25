@@ -21,15 +21,19 @@ Candela Acevedo trabajó en:
 •	Codificación del Layout grid de Project.html
 •	Gestión completa del Instagram para nuestro sitio.
 •	Gestión y administración del Repositorio en GitHub. 
+•	Consumo APIs.
+
 Valeria Miranda:
 •	Se enfocó en la parte de localización de la CANVAMA.
 •	Agregó un mapa vinculado a Google Maps y un hipervínculo referente a la dirección designada
+
 Maria Fabiana Conzolino trabajó en:
 •	La codificación en general de todas las páginas.
 •	En la gestión de fotos para Project.HTML 
 •	En la gestión de fotos, video presentación socios y animación para About.HTML
 •	En la animación para Contact.HTML
 •	En la Responsividad, diseño y estilos del proyecto en general. 
+•	Consumo APIs.
 •	Y participó liderando el equipo de manera de agilizar las tareas cuando el proyecto lo requiriera.
 
 NOTAS
